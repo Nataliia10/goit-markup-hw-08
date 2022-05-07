@@ -1,0 +1,29 @@
+.page {
+    color: var(--primary-text-color-dark);
+    background-color: var(--primary-text-color-light);
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

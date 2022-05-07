@@ -1,0 +1,38 @@
+.work-section {
+    padding-bottom: 94px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    
+    & .work-item+.work-item {
+        margin-left: 30px;
+    }
+}
+
+
+
+.work-thumb {
+    position: relative;
+    height: 294px;
+}
+
+.work-desc {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    height: 70px;
+    padding: 27px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color-light);
+    background: rgba(47, 48, 58, 0.8);
+}

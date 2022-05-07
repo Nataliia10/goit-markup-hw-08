@@ -1,0 +1,19 @@
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: var(--primary-text-color-light);
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    max-width: 1600px;
+    background-color: #c4c4c4;
+    background-image: linear-gradient(to bottom,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/hero-bg/bgi-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    letter-spacing: 0.06em;
+}
